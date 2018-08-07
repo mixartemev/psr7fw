@@ -1,0 +1,29 @@
+{
+    "name": "mixartemev/psr7fw",
+    "description": "minimal techno",
+    "type": "project",
+    "authors": [
+        {
+            "name": "mixartemev",
+            "email": "mixartemev@gmail.com"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "src/Framework"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.3"
+    },
+    "scripts": {
+        "serve": "php -S localhost:8080 -t public",
+        "test": "phpunit --colors=always"
+    }
+}

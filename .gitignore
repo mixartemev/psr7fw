@@ -1,0 +1,6 @@
+vendor
+*.lock
+.phpunit.*
+phpunit.xml
+.idea
+.DS_Store
